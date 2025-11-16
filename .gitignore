@@ -1,0 +1,9 @@
+sionna-env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Python 가상환경
+.venv/
+venv/
+env/

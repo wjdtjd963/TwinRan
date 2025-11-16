@@ -1,0 +1,37 @@
+{
+  "antenna": {
+    "tx": {
+      "num_rows": 4,
+      "num_cols": 4,
+      "vertical_spacing": 0.5,
+      "horizontal_spacing": 0.5,
+      "pattern": "tr38901",
+      "polarization": "V"
+    },
+    "rx": {
+      "num_rows": 2,
+      "num_cols": 2,
+      "vertical_spacing": 0.5,
+      "horizontal_spacing": 0.5,
+      "pattern": "dipole",
+      "polarization": "cross"
+    }
+  },
+  "scene": {
+    "frequency": 7.2e9,
+    "synthetic_array": true
+  },
+  "path_solver": {
+    "max_depth": 7,
+    "max_num_paths_per_src": 2000000,
+    "samples_per_src": 2000000,
+    "synthetic_array": true,
+    "los": true,
+    "specular_reflection": true,
+    "diffuse_reflection": true,
+    "refraction": true
+  },
+  "path_attributes": [
+    "a_re", "a_im", "phi_r", "phi_t", "tau", "theta_r", "theta_t", "interactions", "valid"
+  ]
+} 
