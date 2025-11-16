@@ -6,6 +6,7 @@
 from .effective_sinr import EffectiveSINR, EESM
 from .phy_abstraction import PHYAbstraction
 from .link_adaptation import InnerLoopLinkAdaptation, OuterLoopLinkAdaptation
+from .association import AssociationResult, build_rx_tx_association_from_h_slot
 from .power_control import open_loop_uplink_power_control, \
      downlink_fair_power_control
 from .scheduling import PFSchedulerSUMIMO
